@@ -1,4 +1,4 @@
-#include "header.h"
+#include <header.h>
 
 int isInteger(char *token) {
     int isnumber = 1;

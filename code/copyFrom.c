@@ -100,7 +100,8 @@ void assignML(Matrix *lhs, char *floatList) {
     strcpy(mallocced, floatList);
     char **flp = &mallocced;
 
-    char *floatTokens[m * n];
+    char **floatTokens = (char **)malloc(m * n * sizeof(char *));
+    j=0;
     for (i = 0; i < m * n; i++) {
         if ((floatString = strtok_r(mallocced, " ", flp)) != NULL) {
             floatTokens[j++] = floatString;

@@ -1,4 +1,5 @@
-#include "header.h"
+#include <header.h>
+
 
 //check if given token is a valid isValidIdentifierName
 int isValidIdentifierName(char *token) {

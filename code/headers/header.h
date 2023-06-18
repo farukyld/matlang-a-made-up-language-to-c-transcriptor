@@ -5,7 +5,7 @@
 #include <stdlib.h>
 #include <string.h>
 #include <ctype.h>
-#include "funcNames.h"
+#include <funcNames.h>
 
 #define LEFT_ASSOC
 #define ALLOW_DEBUGGING_OUTPUT_TO_CONSOLE
