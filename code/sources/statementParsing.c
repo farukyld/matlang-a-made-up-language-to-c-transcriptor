@@ -1,4 +1,5 @@
-#include "header.h"
+#include <header.h>
+
 
 //-1:assignment, 0:for, 1 print, 2: printsep, 3 end for
 int statementType(char *firstToken) {

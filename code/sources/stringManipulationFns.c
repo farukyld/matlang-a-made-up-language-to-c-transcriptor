@@ -1,5 +1,4 @@
-#include "header.h"
-
+#include <header.h>
 
 
 /// \return new string with spaces before and after each special char,
